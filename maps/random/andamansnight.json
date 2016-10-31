@@ -1,0 +1,13 @@
+{
+	"settings" : {
+		"Name" : "Andamans - Night",
+		"Script" : "andamansnight.js",
+		"Description" : "Each player starts on an island surrounded by water. The central volcanic island is rich in resources especially iron. Watch out for the natives!\n\nThe Andaman Islands form a tropical archipelago in the Bay of Bengal between India, to the west, and Myanmar, to the north and east. It has 325 islands which cover an area of 6,408 square kilometres.",
+		"BaseTerrain" : ["medit_sea_depths"],
+		"BaseHeight" : -5,
+		"Keywords": ["naval"],
+		"Preview" : "andamansnight.png",
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}
