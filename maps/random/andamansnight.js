@@ -303,7 +303,7 @@ if((i==startingPlaces[numPlayers-1][nPlayer])){
 	createArea(placer, [painter,paintClass(clCity)], null);
 
 	// create starting units
-	placeCivDefaultEntities(fx, fz, id, BUILDING_ANGlE, {'iberWall' : 'towers'});
+	placeCivDefaultEntities(fx, fz, id,{'iberWall' : 'towers'});
 
     nPlayer++;
 }
@@ -702,6 +702,9 @@ setWaterTint(0, 0.164706, 0.164706);
 setWaterMurkiness(0.133789);
 setWaterWaviness(3.0);
 setWaterType("ocean");
+
+setPPBrightness(0.35)
+setPPEffect("hdr");
 
 // Export map data
 ExportMap();

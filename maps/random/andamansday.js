@@ -303,7 +303,7 @@ if((i==startingPlaces[numPlayers-1][nPlayer])){
 	createArea(placer, [painter,paintClass(clCity)], null);
 
 	// create starting units
-	placeCivDefaultEntities(fx, fz, id, BUILDING_ANGlE, {'iberWall' : 'towers'});
+	placeCivDefaultEntities(fx, fz, id,{'iberWall' : 'towers'});
 
     nPlayer++;
 }
